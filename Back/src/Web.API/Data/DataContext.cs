@@ -7,5 +7,6 @@ namespace Web.API.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
         public DbSet<Evento> Eventos { get; set; }
+        public DbSet<Login> Logins {get; set;}
     }
 }
